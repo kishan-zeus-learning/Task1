@@ -16,15 +16,15 @@ h1,h2{
     padding-left: 10px;
 }
 h1{
-    background-color: rgb(180, 8, 8);
+    background-color: #9f0000;
     letter-spacing: 10px;
     text-align: center;
-    border-bottom: 10px solid red;
+    border-bottom: 10px solid #d20000;
     font-style: italic;
 }
 
 h2{
-    background-color: rgb(24, 212, 24) ;
+    background-color: #009f00 ;
 }
 
 h3{
@@ -33,6 +33,7 @@ h3{
 
 ul,ol{
     color :maroon;
+    font-style: italic;
 }
 
 a{
@@ -43,17 +44,18 @@ img{
     object-fit: fill;
     width : 250px;
     background-color: white;
-    border: 2px black dotted;
+    border: 2px #d3d3d3 dotted;
 }
 
 table{
-    background-color: darkgray;
+    background-color: #d3d3d3;
 }
 
 textarea{
     width: 200px;
     height: 200px;
     overflow-y: scroll;
+    font-family: sans-serif;
 }
 
 form div{
